@@ -20,3 +20,8 @@ document.querySelector(".cta img").src = siteContent.images["cta-img"];
 document.querySelector("header img").src = siteContent.images["logo-img"];
 
 document.querySelector(".middle-img").src = siteContent.images["accent-img"];
+
+const topContentHeaders = document.querySelectorAll(".top-content h4");
+
+topContentHeaders[0].textContent = siteContent["top-content"]["left-h4"];
+topContentHeaders[1].textContent = siteContent["top-content"]["right-h4"];
