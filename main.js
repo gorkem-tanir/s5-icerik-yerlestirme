@@ -12,3 +12,5 @@ for (let i = 0; i < navLinks.length; i++) {
 }
 
 document.querySelector(".cta h1").textContent = siteContent.cta.h1;
+
+document.querySelector(".cta button").textContent = siteContent.cta.button;
