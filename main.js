@@ -16,3 +16,5 @@ document.querySelector(".cta h1").textContent = siteContent.cta.h1;
 document.querySelector(".cta button").textContent = siteContent.cta.button;
 
 document.querySelector(".cta img").src = siteContent.images["cta-img"];
+
+document.querySelector("header img").src = siteContent.images["logo-img"];
