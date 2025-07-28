@@ -32,3 +32,10 @@ topContentParagraphs[0].textContent =
   siteContent["top-content"]["left-content"];
 topContentParagraphs[1].textContent =
   siteContent["top-content"]["right-content"];
+
+const bottomContentHeaders = document.querySelectorAll(".bottom-content h4");
+
+bottomContentHeaders[0].textContent = siteContent["bottom-content"]["left-h4"];
+bottomContentHeaders[1].textContent =
+  siteContent["bottom-content"]["middle-h4"];
+bottomContentHeaders[2].textContent = siteContent["bottom-content"]["right-h4"];
