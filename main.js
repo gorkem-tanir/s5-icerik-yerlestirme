@@ -25,3 +25,10 @@ const topContentHeaders = document.querySelectorAll(".top-content h4");
 
 topContentHeaders[0].textContent = siteContent["top-content"]["left-h4"];
 topContentHeaders[1].textContent = siteContent["top-content"]["right-h4"];
+
+const topContentParagraphs = document.querySelectorAll(".top-content p");
+
+topContentParagraphs[0].textContent =
+  siteContent["top-content"]["left-content"];
+topContentParagraphs[1].textContent =
+  siteContent["top-content"]["right-content"];
