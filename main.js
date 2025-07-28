@@ -48,3 +48,6 @@ bottomContentParagraphs[1].textContent =
   siteContent["bottom-content"]["middle-content"];
 bottomContentParagraphs[2].textContent =
   siteContent["bottom-content"]["right-content"];
+
+document.querySelector(".contact h4").textContent =
+  siteContent.contact["contact-h4"];
