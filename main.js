@@ -51,3 +51,10 @@ bottomContentParagraphs[2].textContent =
 
 document.querySelector(".contact h4").textContent =
   siteContent.contact["contact-h4"];
+
+const contactParagraphs = document.querySelectorAll(".contact p");
+
+for (let i = 0; i < contactParagraphs.length; i++) {
+  contactParagraphs[i].textContent =
+    siteContent.contact[Object.keys(siteContent.contact)[i + 1]];
+}
