@@ -10,3 +10,5 @@ for (let i = 0; i < navLinks.length; i++) {
   navLinks[i].classList.add("italic");
   navLinks[i].textContent = siteContent.nav[Object.keys(siteContent.nav)[i]];
 }
+
+document.querySelector(".cta h1").textContent = siteContent.cta.h1;
