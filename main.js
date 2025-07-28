@@ -39,3 +39,12 @@ bottomContentHeaders[0].textContent = siteContent["bottom-content"]["left-h4"];
 bottomContentHeaders[1].textContent =
   siteContent["bottom-content"]["middle-h4"];
 bottomContentHeaders[2].textContent = siteContent["bottom-content"]["right-h4"];
+
+const bottomContentParagraphs = document.querySelectorAll(".bottom-content p");
+
+bottomContentParagraphs[0].textContent =
+  siteContent["bottom-content"]["left-content"];
+bottomContentParagraphs[1].textContent =
+  siteContent["bottom-content"]["middle-content"];
+bottomContentParagraphs[2].textContent =
+  siteContent["bottom-content"]["right-content"];
