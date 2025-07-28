@@ -58,3 +58,7 @@ for (let i = 0; i < contactParagraphs.length; i++) {
   contactParagraphs[i].textContent =
     siteContent.contact[Object.keys(siteContent.contact)[i + 1]];
 }
+
+document.querySelector("footer a").classList.add("bold");
+
+document.querySelector("footer a").textContent = siteContent.footer.copyright;
