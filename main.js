@@ -3,3 +3,10 @@ import { siteContent } from "./content.js";
 console.log("Site içeriği", siteContent);
 
 /* Kodlar buradan aşağıya */
+
+const navLinks = document.querySelectorAll("a");
+
+for (let i = 0; i < navLinks.length; i++) {
+  navLinks[i].classList.add("italic");
+  navLinks[i].textContent = siteContent.nav[Object.keys(siteContent.nav)[i]];
+}
